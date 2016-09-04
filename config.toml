@@ -81,7 +81,7 @@ theme = "hugo-creative-theme"
 
   	[[params.attendees.list]]
   		icon = "fa-briefcase"
-  		title = "Business"
+  		title = "Businesses"
   		description = "Entrepreneurs, business owners, and industry leaders interested in ways to partner with local government to make life better for communities."
 
   # Speakers modals
