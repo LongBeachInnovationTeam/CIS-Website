@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+
+        {{ partial "nav.html" . }}
+
+        {{ partial "hero.html" . }}
+        {{ partial "eventbrite_registration.html" . }}
+        {{ partial "cost.html" . }}
+        {{ partial "attendees.html" . }}
+
+        <!--
+        {{ partial "speakers.html" . }}
+        {{ partial "aside.html" . }}
+        -->
+
+        {{ partial "where.html" . }}
+        {{ partial "contact.html" . }}
+
+        {{ partial "modals.html" . }}
+        {{ partial "js.html" . }}
+    </body>
+</html>
