@@ -254,6 +254,28 @@ header .header-content .header-content-inner p {
     }
 }
 
+.navbar-default .brand-logo {
+    width: 140px;
+    height: 30px;
+    content:url("../img/long-beach-logo-white.png");
+}
+
+.navbar-default.affix .brand-logo {
+    width: 140px;
+    height: 35px;
+    content:url("../img/long-beach-logo.png");
+}
+
+.cis-logo {
+    width: 600px;
+}
+
+@media(max-width:768px) {
+    .cis-logo {
+        width: 350px;
+    }
+}
+
 .attendee-box p {
     margin-bottom: 0;
 }

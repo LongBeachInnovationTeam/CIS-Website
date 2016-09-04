@@ -39,8 +39,9 @@ theme = "hugo-creative-theme"
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     	= "Long Beach Civic Innovation Summit 2016"
-		subtitle	 	= "Recognizing outstanding innovation in government."
+		# To chanve the logo of the hero section, replace the image at 'layouts/partials/hero.html' with your own.
+		# It's best to define an all-white and colored logo in the creative.css
+
 		description	= "The City of Long Beach is a national leader in civic, social, and government innovation. This day-long summit, sponsored by the City of Long Beach, is an opportunity for thought leaders, community members, planners, and professional staff to recognize outstanding efforts and cutting-edge innovation in the public sector."
 		buttonText 	= "Register Now"
 
