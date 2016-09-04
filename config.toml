@@ -1,4 +1,4 @@
-baseurl = "http://innovatelb.com/summit"
+baseurl = "http://innovatelb.com/summit/"
 languageCode = "en-us"
 title = "CIS 2016"
 theme = "hugo-creative-theme"
