@@ -61,7 +61,7 @@ theme = "hugo-creative-theme"
 
     [[params.attendees.list]]
       icon = "fa-users"
-      title = "Government employees"
+      title = "Government Employees"
       description = "Local government professionals, managers, and City staff."
 
     [[params.attendees.list]]
