@@ -254,16 +254,25 @@ header .header-content .header-content-inner p {
     }
 }
 
+.brand-logo {
+    max-width: 162px;
+    height: auto;
+    position: relative;
+    top: -3px;
+}
+
 .navbar-default .brand-logo {
-    width: 140px;
-    height: 30px;
-    content:url("../img/long-beach-logo-white.png");
+    content: url("../img/long-beach-logo.png");
+}
+
+@media(min-width:768px) {
+    .navbar-default .brand-logo {
+        content: url("../img/long-beach-logo-white.png");
+    }
 }
 
 .navbar-default.affix .brand-logo {
-    width: 140px;
-    height: 35px;
-    content:url("../img/long-beach-logo.png");
+    content: url("../img/long-beach-logo.png");
 }
 
 .cis-logo {
