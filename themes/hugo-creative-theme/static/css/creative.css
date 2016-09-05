@@ -267,12 +267,24 @@ header .header-content .header-content-inner p {
 }
 
 .cis-logo {
-    width: 600px;
+    width: 250px;
 }
 
-@media(max-width:768px) {
+@media(min-width: 768px) {
     .cis-logo {
         width: 350px;
+    }
+}
+
+@media(min-width: 992px) {
+    .cis-logo {
+        width: 500px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .cis-logo {
+        width: 600px;
     }
 }
 
