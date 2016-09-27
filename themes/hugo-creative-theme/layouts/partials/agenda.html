@@ -1,0 +1,12 @@
+{{ "<!-- AGENDA -->" | safeHTML }}
+<section class="bg-primary" id="agenda">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.agenda.headline }}{{ . }}{{ end }}</h2>
+                <hr class="light">
+                <a download href="{{ .Site.BaseURL }}{{ .Site.Params.agenda.downloadLink }}" class="btn btn-default btn-xl page-scroll">{{ with .Site.Params.agenda.buttonText }}{{ . }}{{ end }}</a>
+            </div>
+        </div>
+    </div>
+</section>

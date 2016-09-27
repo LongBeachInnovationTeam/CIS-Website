@@ -30,10 +30,11 @@ theme = "hugo-creative-theme"
 		[params.navigation.links]
 			register 	= "Register"
 			cost     	= "Cost"
-			attendees = "Attendees"
+			attendees   = "Attendees"
+            agenda      = "Agenda"
 			speakers 	= "Speakers"
 			where 		= "Where"
-			contact   = "Contact"
+			contact     = "Contact"
 
 
 	# Hero section
@@ -62,30 +63,36 @@ theme = "hugo-creative-theme"
 	[params.attendees]
 		headline = "Who should attend?"
 
-    [[params.attendees.list]]
-      icon = "fa-users"
-      title = "Government Employees"
-      description = "Local government professionals, managers, and City staff."
+        [[params.attendees.list]]
+          icon = "fa-users"
+          title = "Government Employees"
+          description = "Local government professionals, managers, and City staff."
 
-    [[params.attendees.list]]
-			icon = "fa-institution"
-			title = "City Officials"
-			description = "City commissioners, City Council members and staff."
+        [[params.attendees.list]]
+                icon = "fa-institution"
+                title = "City Officials"
+                description = "City commissioners, City Council members and staff."
 
-		[[params.attendees.list]]
-      icon = "fa-graduation-cap"
-      title = "Universities"
-      description = "University faculty and students interested in public administration, public policy, design thinking, government technology, business administration, and innovation."
+        [[params.attendees.list]]
+          icon = "fa-graduation-cap"
+          title = "Universities"
+          description = "University faculty and students interested in public administration, public policy, design thinking, government technology, business administration, and innovation."
 
-    [[params.attendees.list]]
-    	icon = "fa-smile-o"
-      title = "Community"
-    	description = "Community members interested in civic and social innovation"
+        [[params.attendees.list]]
+            icon = "fa-smile-o"
+          title = "Community"
+            description = "Community members interested in civic and social innovation"
 
-  	[[params.attendees.list]]
-  		icon = "fa-briefcase"
-  		title = "Businesses"
-  		description = "Entrepreneurs, business owners, and industry leaders interested in ways to partner with local government to make life better for communities."
+        [[params.attendees.list]]
+            icon = "fa-briefcase"
+            title = "Businesses"
+            description = "Entrepreneurs, business owners, and industry leaders interested in ways to partner with local government to make life better for communities."
+        
+    # Agenda section
+    [params.agenda]
+        headline = "Civic Innovation Summit Agenda"
+        buttonText = "Download"
+        downloadLink = "Civic-Innovation-Summit-Agenda.pdf"
 
   # Speakers modals
 	[params.speakers.modal]
