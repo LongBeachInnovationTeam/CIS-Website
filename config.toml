@@ -16,7 +16,7 @@ theme = "hugo-creative-theme"
 	# You can events at 'data/speakers'.
 
 	# To provide some metadata for search engines feel free to add a few
-  # information about you and your website.
+    # information about you and your website.
 	name = "Long Beach Civic Innovation Summit"
 	description = "Recognizing outstanding innovation in government."
 
@@ -55,7 +55,7 @@ theme = "hugo-creative-theme"
 	# Cost section
 	[params.cost]
 		headline    = "How much does it cost?"
-		description = "There is no cost to participate but space is limited.  Registration will be closed on October 3rd @ 5:00 p.m., or when participation has reached its capacity at 250.  Parking at the Convention Center is $10."
+		description = "There is no cost to participate but space is limited.  Registration will be closed on October 3rd @ 5:00 p.m., or when participation has reached its capacity at 250."
 		buttonText  = "Get started!"
 
 
@@ -113,7 +113,7 @@ theme = "hugo-creative-theme"
 	# Where sections
 	[params.where]
 		headline    = "How do I get there?"
-		description = "The Seaside Ballroom is at street level on the north side of the Center campus, with a convenient parking turnout and entrance on Seaside Way, and easy access to the Terrace Theater and Plaza, the Arena and the exhibit halls’ north entrance doors. Parking is $10 per car per entry to any of the Convention Center lots."
+		description = "The Seaside Ballroom is at street level on the north side of the Center campus, with a convenient parking turnout and entrance on Seaside Way, and easy access to the Terrace Theater and Plaza, the Arena and the exhibit halls’ north entrance doors."
 
 	# Contact section
 	[params.contact]
