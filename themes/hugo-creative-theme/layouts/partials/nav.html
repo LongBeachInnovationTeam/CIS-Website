@@ -16,18 +16,26 @@
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+                <!--
                 <li>
                     <a class="page-scroll" href="#register">{{ with .Site.Params.navigation.links.register }}{{ . }}{{ end }}</a>
                 </li>
+                -->
                 <li>
-                    <a class="page-scroll" href="#cost">{{ with .Site.Params.navigation.links.cost }}{{ . }}{{ end }}</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#attendees">{{ with .Site.Params.navigation.links.attendees }}{{ . }}{{ end }}</a>
+                    <a class="page-scroll" href="#livestream">{{ with .Site.Params.navigation.links.livestream }}{{ . }}{{ end }}</a>  
                 </li>
                 <li>
                     <a class="page-scroll" href="#agenda">{{ with .Site.Params.navigation.links.agenda }}{{ . }}{{ end }}</a>
-                </li>                
+                </li>  
+                <!--
+                <li>
+                    <a class="page-scroll" href="#cost">{{ with .Site.Params.navigation.links.cost }}{{ . }}{{ end }}</a>
+                </li>
+                -->
+                <li>
+                    <a class="page-scroll" href="#attendees">{{ with .Site.Params.navigation.links.attendees }}{{ . }}{{ end }}</a>
+                </li>
+              
                 <!--
                 <li>
                     <a class="page-scroll" href="#speakers">{{ with .Site.Params.navigation.links.speakers }}{{ . }}{{ end }}</a>

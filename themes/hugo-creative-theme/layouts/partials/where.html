@@ -1,10 +1,10 @@
 {{ "<!-- COST -->" | safeHTML }}
-<section id="where">
+<section class="bg-primary" id="where">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">{{ with .Site.Params.where.headline }}{{ . }}{{ end }}</h2>
-                <hr class="primary">
+                <hr class="light">
                 <p>{{ with .Site.Params.where.description }}{{ . | markdownify }}{{ end }}</p>
             </div>
         </div>

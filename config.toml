@@ -28,10 +28,11 @@ theme = "hugo-creative-theme"
 		brand = "City of Long Beach"
 
 		[params.navigation.links]
-			register 	= "Register"
-			cost     	= "Cost"
-			attendees   = "Attendees"
+			# register 	= "Register"
+            livestream  = "Livestream"
             agenda      = "Agenda"
+			# cost     	= "Cost"
+			attendees   = "Attendees"
 			speakers 	= "Speakers"
 			where 		= "Where"
 			contact     = "Contact"
@@ -47,10 +48,16 @@ theme = "hugo-creative-theme"
 		time = "9:00 AM &mdash; 4:00 PM"
 		location = "Long Beach Convention Center (Seaside Ballroom)"
 		description	= "The City of Long Beach is a national leader in civic, social, and government innovation. This day-long summit, sponsored by the City of Long Beach, is an opportunity for thought leaders, community members, planners, and professional staff to recognize outstanding efforts and cutting-edge innovation in the public sector."
-		buttonText 	= "Register Now"
+		# buttonText 	= "Register Now"
+        buttonText = "Livestream"
 
-	[params.register]
-		headline   	= "Will you be attending?"
+	# [params.register]
+		# headline   	= "Will you be attending?"
+
+    # Livestream section
+    [params.livestream]
+        headline    = "Livestream"
+        description = "Couldn't make the Innovation Summit? Join in via livestream anytime from 9am to 4pm on Thursday, October 6th."
 
 	# Cost section
 	[params.cost]

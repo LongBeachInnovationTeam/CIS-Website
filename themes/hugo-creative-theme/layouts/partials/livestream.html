@@ -1,0 +1,17 @@
+{{ "<!-- LIVESTREAM -->" | safeHTML }}
+<section id="livestream">
+    <div class="container">
+        <div class="row">
+           	<div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">{{ with .Site.Params.livestream.headline }}{{ . }}{{ end }}</h2>
+                <hr class="primary">
+                <p>{{ with .Site.Params.livestream.description }}{{ . }}{{ end }}</p>
+                <!-- BEGIN Embed Code -->
+                <span>
+                    <script src="http://custlogin.audiovideoweb.com/lnks/mo/dir/8c3flslive2153/load?bgcolor=auto&skin=white&width=640&height=360&autoPlay=false&volume=50" type="text/javascript"></script>
+                </span>
+                <!-- END Embed Code -->
+            </div>
+        </div>
+    </div>
+</section>
