@@ -28,10 +28,10 @@ theme = "hugo-creative-theme"
 		brand = "City of Long Beach"
 
 		[params.navigation.links]
-			# register 	= "Register"
+			register 	= "Register"
             livestream  = "Livestream"
-            agenda      = "Agenda"
-			# cost     	= "Cost"
+            info        = "Info"
+			cost     	= "Cost"
 			attendees   = "Attendees"
 			speakers 	= "Speakers"
 			where 		= "Where"
@@ -49,15 +49,17 @@ theme = "hugo-creative-theme"
 		location = "Long Beach Convention Center (Seaside Ballroom)"
 		description	= "The City of Long Beach is a national leader in civic, social, and government innovation. This day-long summit, sponsored by the City of Long Beach, is an opportunity for thought leaders, community members, planners, and professional staff to recognize outstanding efforts and cutting-edge innovation in the public sector."
 		# buttonText 	= "Register Now"
-        buttonText = "Livestream"
+        buttonText = "Watch the Livestream"
 
-	# [params.register]
-		# headline   	= "Will you be attending?"
+    # Registration section
+	[params.register]
+        headline   	= "Registration is now closed!"
+        buttonText  = "Catch us via livestream"
 
     # Livestream section
     [params.livestream]
         headline    = "Livestream"
-        description = "Couldn't make the Innovation Summit? Join in via livestream anytime from 9am to 4pm on Thursday, October 6th."
+        description = "Didn't register on time? Don't frett – join us via livestream anytime from 9am to 4pm on Thursday, October 6th!"
 
 	# Cost section
 	[params.cost]
@@ -96,10 +98,12 @@ theme = "hugo-creative-theme"
             description = "Entrepreneurs, business owners, and industry leaders interested in ways to partner with local government to make life better for communities."
         
     # Agenda section
-    [params.agenda]
-        headline = "Civic Innovation Summit Agenda"
-        buttonText = "Download"
-        downloadLink = "Civic-Innovation-Summit-Agenda.pdf"
+    [params.info]
+        headline = "Info"
+        agendaDownloadLink = "Civic-Innovation-Summit-Agenda.pdf"
+        agendaDownloadDescription = "Civic Innovation Summit Agenda"
+        speakersDownloadLink = "Speaker-Biographies.pdf"
+        speakersDownloadDescription = "Speaker Biographies"
 
   # Speakers modals
 	[params.speakers.modal]

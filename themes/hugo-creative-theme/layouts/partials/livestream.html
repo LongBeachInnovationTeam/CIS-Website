@@ -1,10 +1,10 @@
 {{ "<!-- LIVESTREAM -->" | safeHTML }}
-<section id="livestream">
+<section class="bg-primary" id="livestream">
     <div class="container">
         <div class="row">
            	<div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">{{ with .Site.Params.livestream.headline }}{{ . }}{{ end }}</h2>
-                <hr class="primary">
+                <hr class="light">
                 <p>{{ with .Site.Params.livestream.description }}{{ . }}{{ end }}</p>
                 <!-- BEGIN Embed Code -->
                 <span>
