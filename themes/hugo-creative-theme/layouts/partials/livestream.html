@@ -7,8 +7,8 @@
                 <hr class="light">
                 <p>{{ with .Site.Params.livestream.description }}{{ . }}{{ end }}</p>
                 <!-- BEGIN Embed Code -->
-                <div class="livestream-video">
-                    <script src="http://custlogin.audiovideoweb.com/lnks/mo/dir/8c3flslive2153/load?bgcolor=auto&skin=white&width=640&height=360&autoPlay=false&volume=50" type="text/javascript"></script>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="100%" src="{{ with .Site.Params.livestream.link }}{{ . }}{{ end }}" allowfullscreen></iframe>
                 </div>
                 <!-- END Embed Code -->
             </div>
