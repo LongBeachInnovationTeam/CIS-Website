@@ -11,14 +11,11 @@
     <div class="container-fluid">
         <div class="row no-gutter">
             {{ range .Site.Data.speakers }}
-            <div class="col-lg-4 col-sm-6">
-                <a href="#eventModal{{ .modalID }}" class="event-box event-link" data-toggle="modal">
+            <div class="col-sm-6 col-lg-4">
+                <a href="#eventModal-{{ .modalID }}" class="event-box event-link" data-toggle="modal">
                     <img src="img/speakers/{{ .img }}" class="img-responsive" alt="">
                     <div class="event-box-caption">
                         <div class="event-box-caption-content">
-                            <div class="speaker-category text-faded">
-                                {{ .speaker }}
-                            </div>
                             <div class="speaker-name">
                                 {{ .title }}
                             </div>
