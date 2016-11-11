@@ -29,8 +29,8 @@ theme = "hugo-creative-theme"
 
 		[params.navigation.links]
 			register 	  = "Register"
-      livestream  = "Watch"
-      info        = "Info"
+            livestream  = "Watch"
+            info        = "Info"
 			cost     	  = "Cost"
 			attendees   = "Attendees"
 			speakers 	  = "Awardees"
@@ -44,7 +44,7 @@ theme = "hugo-creative-theme"
 		# To chanve the logo of the hero section, replace the image at 'layouts/partials/hero.html' with your own.
 		# It's best to define an all-white and colored logo in the creative.css
 
-		date = "October 6, 2016"
+		date = "October 2016"
 		time = "9:00 AM &mdash; 4:00 PM"
 		location = "Long Beach Convention Center (Seaside Ballroom)"
 		description	= "The City of Long Beach is a national leader in civic, social, and government innovation. This day-long summit, sponsored by the City of Long Beach, is an opportunity for thought leaders, community members, planners, and professional staff to recognize outstanding efforts and cutting-edge innovation in the public sector."
@@ -60,7 +60,7 @@ theme = "hugo-creative-theme"
     [params.livestream]
         headline    = "Innovation Summit"
         description = "Didn't register on time? Don't frett – watch the entire event on Youtube to catch up!"
-		    link = "https://www.youtube.com/embed/GD4SaFA0L7I"
+		    link = "https://www.youtube.com/embed/t7WzxdBApXk"
 
 	# Cost section
 	[params.cost]
@@ -113,6 +113,7 @@ theme = "hugo-creative-theme"
 	# Speakers section
 	[params.speakers]
 		headline	= "Awardees"
+        description = "Click below to see this year's awardee recipients."
 
   # Aside section
 	[params.aside]
