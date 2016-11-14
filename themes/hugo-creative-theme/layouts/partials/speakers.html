@@ -11,14 +11,14 @@
     </div>
     <div class="container-fluid">
         <div class="row no-gutter">
-            {{ range .Site.Data.speakers }}
+            {{ with .Site.Params.speakers }}
             <div>
-                <a href="https://www.youtube.com/watch?v=AHhNpufqtp0&list=PL03_raMiJ1C3Te_uAFgT-L1h9n8n5JGVk&index=1" class="event-box event-link">
-                    <img src="img/speakers/{{ .img }}" class="img-responsive img-centered" alt="">
+                <a href="{{ .playlistLink }}" class="event-box event-link">
+                    <img src="{{ .img }}" class="img-responsive img-centered" alt="{{ .description }}">
                     <div class="event-box-caption">
                         <div class="event-box-caption-content">
                             <div class="speaker-name">
-                                {{ .title }}
+                                {{ .headline }}
                             </div>
                         </div>
                     </div>

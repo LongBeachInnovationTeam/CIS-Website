@@ -97,7 +97,7 @@ theme = "hugo-creative-theme"
             icon = "fa-briefcase"
             title = "Businesses"
             description = "Entrepreneurs, business owners, and industry leaders interested in ways to partner with local government to make life better for communities."
-        
+
     # Agenda section
     [params.info]
         headline = "Info"
@@ -106,16 +106,18 @@ theme = "hugo-creative-theme"
         speakersDownloadLink = "Speaker-Biographies.pdf"
         speakersDownloadDescription = "Speaker Biographies"
 
-  # Speakers modals
+    # Speakers modals
 	[params.speakers.modal]
 	  buttonText	= "Close"
 
 	# Speakers section
 	[params.speakers]
-		headline	= "Awardees"
-        description = "Click below to see this year's awardee recipients."
+		headline	    = "Awardees"
+        description     = "Click below to see this year's awardee recipients."
+        playlistLink    = "https://www.youtube.com/watch?v=AHhNpufqtp0&list=PL03_raMiJ1C3Te_uAFgT-L1h9n8n5JGVk&index=1"
+        img             = "img/speakers/awardee.jpg"
 
-  # Aside section
+    # Aside section
 	[params.aside]
 		headline = "Gain insights from these amazing speakers at the Innovation Summit!"
 
