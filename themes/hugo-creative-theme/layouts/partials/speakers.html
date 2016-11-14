@@ -1,23 +1,24 @@
 {{ "<!-- SPEAKERS -->" | safeHTML }}
-<section class="no-padding" id="speakers">
+<section class="bg-primary" id="speakers">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">{{ with .Site.Params.speakers.headline }}{{ . }}{{ end }}</h2>
-                <hr class="primary">
+                <hr class="light">
+                <p>{{ with .Site.Params.speakers.description }}{{ . }}{{ end }}</p>
             </div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row no-gutter">
-            {{ range .Site.Data.speakers }}
-            <div class="col-sm-6 col-lg-4">
-                <a href="#eventModal-{{ .modalID }}" class="event-box event-link" data-toggle="modal">
-                    <img src="img/speakers/{{ .img }}" class="img-responsive" alt="">
+            {{ with .Site.Params.speakers }}
+            <div class="col-sm-12">
+                <a href="{{ .playlistLink }}" class="event-box event-link">
+                    <img src="{{ .img }}" class="img-responsive img-centered" alt="{{ .description }}">
                     <div class="event-box-caption">
                         <div class="event-box-caption-content">
                             <div class="speaker-name">
-                                {{ .title }}
+                                {{ .headline }}
                             </div>
                         </div>
                     </div>
