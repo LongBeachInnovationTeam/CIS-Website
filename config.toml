@@ -71,7 +71,7 @@ theme = "hugo-creative-theme"
 
 	# Attendees section
 	[params.attendees]
-		headline = "Who should attend?"
+		headline = "Who attended?"
 
         [[params.attendees.list]]
           icon = "fa-users"
